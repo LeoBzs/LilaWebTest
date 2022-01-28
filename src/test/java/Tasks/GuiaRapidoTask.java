@@ -1,6 +1,5 @@
 package Tasks;
 
-import PageObjects.EntrarMesaPage;
 import PageObjects.GuiaRapidoPage;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +14,7 @@ public class GuiaRapidoTask {
     public void clicaNoGuia() throws Exception {
         guiaRapidoPage.getGuiaRapido().click();
         verificaCarregamentoMesa();
+        guiaRapidoPage.getBotaoSair().click();
     }
 
     public void verificaCarregamentoMesa(){

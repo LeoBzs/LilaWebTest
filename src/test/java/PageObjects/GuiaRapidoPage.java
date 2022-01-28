@@ -18,4 +18,7 @@ public class GuiaRapidoPage {
     public WebElement getGuiaValidacao(){
         return waits.visibilityOfElement(By.xpath("/html/body/jw-modal[1]/div[1]/div/div/h1"));
     }
+    public WebElement getBotaoSair(){
+        return waits.visibilityOfElement(By.xpath("/html/body/jw-modal[1]/div[1]/div/div/button"));
+    }
 }

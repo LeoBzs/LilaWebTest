@@ -12,6 +12,8 @@ public class fazjogadacomsucesso extends TestBase {
     private final CriarMesaTask criarMesaTask = new CriarMesaTask(driver);
     private final EntrarMesaTask entrarMesaTask = new EntrarMesaTask(driver);
     private final GuiaRapidoTask guiaRapidoTask = new GuiaRapidoTask(driver);
+    private final RegrasTask regrasTask = new RegrasTask(driver);
+
     @Test
     public void ClicarSalaComSucesso(){
         try{
@@ -19,6 +21,7 @@ public class fazjogadacomsucesso extends TestBase {
             criarMesaTask.realizarLogin();
             entrarMesaTask.clicaNaSala();
             guiaRapidoTask.clicaNoGuia();
+            regrasTask.clicaRegras();
             System.out.println("sucesso");
         }catch (Exception e) {
             System.out.println("Erro");
