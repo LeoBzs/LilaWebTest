@@ -7,3 +7,5 @@ O código funciona focado a testes no localhost (o selenium exige que se explici
 Visto que o código mudou na main de desenvolvimento, o código ainda é valido - para o teste das branches individuais -
 
 Próxima sprint, caso necessário, reformulo o teste para operar em abas concomitantes visto que agora dois jogadores sao necessários para o inicio do jogo (algum metodo como driver.switchTo().window(); deve ser utilizado) 
+
+http://darrellgrainger.blogspot.com/2013/11/opening-two-windows-for-one-webdriver.html
